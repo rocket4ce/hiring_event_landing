@@ -24,6 +24,15 @@ Usa:
 Se pueden crear más archivos `.hbs` En caso de requerir más "componentes".
 Para crear "sub-componentes" es posible crear carpetas, pero es necesario agregar la nueva carpeta al archivo [webpack.config.js](/webpack.config.js) dentro del loader de handlebars.
 
+
+#### deploy:
+PS: Es necesario tener permisos de escritura en el repo
+- `npm run deploy`
+
 #### TODO:
-- Linting js/css
-- Defin
+- Crear UI/UX
+- Agregar la conexion con la API (Hacer post cuando el usuario logeado elija sus 3 o + skills)
+- Agregar el `tag-selector` para las skills.
+----
+- Linting - js/css
+- Testing
